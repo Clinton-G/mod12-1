@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 
-export const Contacts = createContext();
+export const ContactContext = createContext();
 
 const dummyContacts = [
   { id: 1, name: 'John Doe', email: 'john.doe@example.com', phone: '123-456-7890' },
